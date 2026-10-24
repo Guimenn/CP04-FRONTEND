@@ -1,0 +1,4 @@
+*.zip
+.preview-*.png
+.verificar.cjs
+.DS_Store

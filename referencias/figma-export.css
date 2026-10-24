@@ -1,0 +1,4941 @@
+/* Landing Page / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1280px;
+height: 4458px;
+left: 80px;
+top: 224px;
+
+background: #09090B;
+
+
+/* Nav Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 32px;
+gap: 225px;
+
+width: 1280px;
+height: 96px;
+
+background: #09090B;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 84px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Zingen */
+
+width: 84px;
+height: 32px;
+
+font-family: 'Paytone One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 579px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 116px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 116px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 125px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 122px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 122px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 8px;
+
+width: 144px;
+min-width: 96px;
+height: 48px;
+
+background: #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 96px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #09090B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Hero section */
+
+width: 1280px;
+height: 700px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Illustration */
+
+position: absolute;
+width: 5000px;
+height: 5000px;
+left: -1860px;
+top: 560px;
+
+
+
+/* Backlights */
+
+position: absolute;
+width: 1440px;
+height: 1010.37px;
+left: calc(50% - 1440px/2 + 80px);
+top: 560px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 998.88px;
+height: 998.88px;
+left: 441.12px;
+top: 571.49px;
+
+background: #FC4B1A;
+filter: blur(120px);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 998.88px;
+height: 998.88px;
+left: 0px;
+top: 560px;
+
+background: #F7B733;
+filter: blur(120px);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 5000px;
+height: 5000px;
+left: calc(50% - 5000px/2);
+top: 560px;
+
+background: #18181B;
+
+
+/* Main */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 952px;
+height: 381px;
+left: calc(50% - 952px/2);
+top: 80px;
+
+
+
+/* Div */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 952px;
+height: 277px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Music bars */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 412px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Union */
+
+width: 412px;
+height: 104px;
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 80px;
+left: 0px;
+top: 12px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 64px;
+left: 8px;
+top: 20px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 56px;
+left: 16px;
+top: 24px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 56px;
+left: 24px;
+top: 24px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 32px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 24px;
+left: 40px;
+top: 40px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 36px;
+left: 48px;
+top: 34px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 32px;
+left: 56px;
+top: 36px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 32px;
+left: 64px;
+top: 36px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 28px;
+left: 72px;
+top: 38px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 56px;
+left: 80px;
+top: 24px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 76px;
+left: 88px;
+top: 14px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 88px;
+left: 96px;
+top: 8px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 104px;
+left: 104px;
+top: 0px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 76px;
+left: 112px;
+top: 14px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 48px;
+left: 120px;
+top: 28px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 12px;
+left: 128px;
+top: 46px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 136px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 72px;
+left: 144px;
+top: 16px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 80px;
+left: 152px;
+top: 12px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 56px;
+left: 160px;
+top: 24px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 64px;
+left: 168px;
+top: 20px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 64px;
+left: 176px;
+top: 20px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 184px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 16px;
+left: 192px;
+top: 44px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 8px;
+left: 200px;
+top: 48px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 20px;
+left: 208px;
+top: 42px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 32px;
+left: 216px;
+top: 36px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 224px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 32px;
+left: 232px;
+top: 36px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 240px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 28px;
+left: 248px;
+top: 38px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 56px;
+left: 256px;
+top: 24px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 36px;
+left: 264px;
+top: 34px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 60px;
+left: 272px;
+top: 22px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 52px;
+left: 280px;
+top: 26px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 40px;
+left: 288px;
+top: 32px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 16px;
+left: 296px;
+top: 44px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 8px;
+left: 304px;
+top: 48px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 16px;
+left: 312px;
+top: 44px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 28px;
+left: 320px;
+top: 38px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 36px;
+left: 328px;
+top: 34px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 28px;
+left: 336px;
+top: 38px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 20px;
+left: 344px;
+top: 42px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 24px;
+left: 352px;
+top: 40px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 36px;
+left: 360px;
+top: 34px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 24px;
+left: 368px;
+top: 40px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 36px;
+left: 376px;
+top: 34px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 32px;
+left: 384px;
+top: 36px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 24px;
+left: 392px;
+top: 40px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 16px;
+left: 400px;
+top: 44px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Bar */
+
+position: absolute;
+width: 4px;
+height: 8px;
+left: 408px;
+top: 48px;
+
+background: #18181B;
+border-radius: 40px;
+
+
+/* Frame 48095947 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 952px;
+height: 149px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Quem canta seus males espanta */
+
+width: 952px;
+height: 77px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cantar nunca foi tão fácil */
+
+width: 478px;
+height: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 140%;
+/* identical to box height, or 56px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CTA */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 343px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 8px;
+
+width: 155px;
+min-width: 120px;
+height: 56px;
+
+border: 1.5px solid #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 91px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 8px;
+
+width: 172px;
+min-width: 120px;
+height: 56px;
+
+background: #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 108px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #09090B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* About Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 80px 32px;
+gap: 24px;
+isolation: isolate;
+
+width: 1280px;
+height: 718px;
+
+background: #18181B;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 640px;
+height: 250px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Conheça o app */
+
+width: 130px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* O aplicativo perfeito para aprender a cantar */
+
+width: 640px;
+height: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nosso algoritmo de Inteligência Artificial permite remover a voz original e manter as melodias das músicas. Dessa forma, temos o maior repertório musical para Karaokê! Além disso, ao cantar, sua voz e afinação é comparada pelo algoritmo permitindo uma avaliação precisa da sua performance te ajudando a melhorar seu canto. */
+
+width: 640px;
+height: 104px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Ilustração */
+
+position: absolute;
+width: 544px;
+height: 558px;
+right: 32px;
+top: calc(50% - 558px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* iPhone-13-Pro-Front */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+left: 186.37px;
+top: 0.55px;
+
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+transform: rotate(15deg);
+
+
+/* Silver */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 117.63px;
+top: 0.55px;
+
+background: url(c571874d-b0df-4fba-90ad-a9c3e53166dc_Silver.png);
+transform: rotate(15deg);
+
+
+/* Mockup */
+
+position: absolute;
+left: 37.19%;
+right: 23.47%;
+top: 2.67%;
+bottom: 14.33%;
+
+transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+
+
+/* mask-2 */
+
+position: absolute;
+left: 37.19%;
+right: 23.47%;
+top: 2.67%;
+bottom: 14.33%;
+
+transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+width: 214.01px;
+height: 463.13px;
+right: 127.68px;
+top: 14.91px;
+
+background: #FFFFFF;
+transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+
+
+/* Screen */
+
+position: absolute;
+width: 215.15px;
+height: 465.55px;
+right: 127.58px;
+top: 13.76px;
+
+background: url(image.png);
+transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+
+
+/* iPhone-13-Pro-Front */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+left: 1.7px;
+top: 51.32px;
+
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+transform: rotate(-5deg);
+
+
+/* Silver */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 302.3px;
+top: 51.32px;
+
+background: url(c571874d-b0df-4fba-90ad-a9c3e53166dc_Silver.png);
+transform: rotate(-5deg);
+
+
+/* Mockup */
+
+position: absolute;
+left: 2.96%;
+right: 57.7%;
+top: 11.4%;
+bottom: 5.6%;
+
+transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+
+
+/* mask-2 */
+
+position: absolute;
+left: 2.96%;
+right: 57.7%;
+top: 11.4%;
+bottom: 5.6%;
+
+transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+width: 214.01px;
+height: 463.12px;
+right: 313.87px;
+top: 63.61px;
+
+background: #FFFFFF;
+transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+
+
+/* Screen */
+
+position: absolute;
+width: 215.16px;
+height: 465.54px;
+right: 313.51px;
+top: 62.58px;
+
+background: url(image.png);
+transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+
+
+/* Features Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 80px 32px;
+gap: 32px;
+
+width: 1280px;
+height: 992px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Box 01 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 32px;
+gap: 16px;
+
+width: 280px;
+height: 400px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* MagicWand */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 3.13%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 216px;
+height: 264px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* A maior biblioteca de músicas de Karaokê! */
+
+width: 216px;
+height: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Nossa IA remove a voz de qualquer música e a deixa pronta pra cantar, num passe de mágica! */
+
+width: 216px;
+height: 104px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Box 02 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 32px;
+gap: 16px;
+isolation: isolate;
+
+width: 592px;
+height: 400px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* GameController */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 29.99px;
+height: 22px;
+left: calc(50% - 29.99px/2 + 0px);
+top: calc(50% - 22px/2);
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 256px;
+height: 214px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Experiência gamificada */
+
+width: 256px;
+height: 76px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sua performance é pontuada de acordo com nosso algoritmo ultra preciso. Desafie-se, ganhe reconhecimento e comemore sua evolução! */
+
+width: 256px;
+height: 130px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* iPhone-13-Pro-Front */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 32px;
+bottom: 32px;
+
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Silver */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 32px;
+top: -117.61px;
+
+background: url(c571874d-b0df-4fba-90ad-a9c3e53166dc_Silver.png);
+
+
+/* Mockup */
+
+position: absolute;
+left: 56.33%;
+right: 7.52%;
+top: -26.59%;
+bottom: 10.81%;
+
+
+
+/* mask-2 */
+
+position: absolute;
+left: 56.33%;
+right: 7.52%;
+top: -26.59%;
+bottom: 10.81%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 214.01px;
+height: 463.12px;
+right: 44.49px;
+top: -106.37px;
+
+background: #FFFFFF;
+
+
+/* Screen */
+
+position: absolute;
+width: 215.16px;
+height: 465.54px;
+right: 44.05px;
+top: -107.37px;
+
+background: url(image.png);
+
+
+/* Box 03 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 32px;
+gap: 16px;
+
+width: 280px;
+height: 400px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* MicrophoneStage */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 15.62%;
+top: 14.95%;
+bottom: 0.67%;
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 216px;
+height: 266px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Grave suas performances */
+
+width: 216px;
+height: 76px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Seja para compartilhar com os amigos ou para acompanhar sua evolução, nosso recurso de gravação de áudio e vídeo permite que você aproveite a experiência ao máximo! */
+
+width: 216px;
+height: 182px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Box 04 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 32px 40px 304px;
+gap: 16px;
+isolation: isolate;
+
+width: 592px;
+height: 400px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* UsersThree */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 30px;
+height: 22.01px;
+left: calc(50% - 30px/2 - 0px);
+top: calc(50% - 22.01px/2 + 0px);
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 256px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Compartilhe com a comunidade */
+
+width: 256px;
+height: 76px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Compartilhe suas gravações com a comunidade, interaja e explore a performance vocal de outras pessoas no seu feed! */
+
+width: 256px;
+height: 104px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* iPhone-13-Pro-Front */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+left: 32px;
+bottom: 32px;
+
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Silver */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 320px;
+top: -117.61px;
+
+background: url(c571874d-b0df-4fba-90ad-a9c3e53166dc_Silver.png);
+
+
+/* Mockup */
+
+position: absolute;
+left: 7.68%;
+right: 56.16%;
+top: -26.59%;
+bottom: 10.81%;
+
+
+
+/* mask-2 */
+
+position: absolute;
+left: 7.68%;
+right: 56.16%;
+top: -26.59%;
+bottom: 10.81%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 214.01px;
+height: 463.12px;
+right: 332.49px;
+top: -106.37px;
+
+background: #FFFFFF;
+
+
+/* Screen */
+
+position: absolute;
+width: 215.16px;
+height: 465.54px;
+right: 332.05px;
+top: -107.37px;
+
+background: url(image.png);
+
+
+/* Box 05 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 32px;
+gap: 16px;
+isolation: isolate;
+
+width: 592px;
+height: 400px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* MusicNotes */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 25px;
+height: 27px;
+left: calc(50% - 25px/2 + 0px);
+top: calc(50% - 27px/2 - 0px);
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 256px;
+height: 214px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Letras em  tempo-real */
+
+width: 256px;
+height: 76px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nunca perca o ritmo com as letras das músicas sincronizadas e exibidas em tempo real. Você também pode ativar a voz original da música para ajudar. */
+
+width: 256px;
+height: 130px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* iPhone-13-Pro-Front */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+left: 320px;
+top: 32px;
+
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Silver */
+
+position: absolute;
+width: 240px;
+height: 485.61px;
+right: 32px;
+top: 32px;
+
+background: url(c571874d-b0df-4fba-90ad-a9c3e53166dc_Silver.png);
+
+
+/* Mockup */
+
+position: absolute;
+left: 56.33%;
+right: 7.52%;
+top: 10.81%;
+bottom: -26.59%;
+
+
+
+/* mask-2 */
+
+position: absolute;
+left: 56.33%;
+right: 7.52%;
+top: 10.81%;
+bottom: -26.59%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 214.01px;
+height: 463.12px;
+right: 44.49px;
+top: 43.25px;
+
+background: #FFFFFF;
+
+
+/* Screen */
+
+position: absolute;
+width: 215.16px;
+height: 465.54px;
+right: 44.05px;
+top: 42.25px;
+
+background: url(image.png);
+
+
+/* Princing section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px 32px;
+gap: 32px;
+
+width: 1280px;
+height: 890px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Heading */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 800px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Planos e preços */
+
+width: 146px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Assine e tenha acesso ilimitado a todas as funcionalidades */
+
+width: 800px;
+height: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pricincing table */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1216px;
+height: 560px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pricing card 01 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+width: 384px;
+height: 480px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 320px;
+height: 224px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 48095966 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 320px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Básico */
+
+width: 63px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Baixe o app e comece a cantar agora mesmo! */
+
+width: 320px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Grátis */
+
+width: 113px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 8px;
+
+width: 320px;
+min-width: 96px;
+height: 48px;
+
+border: 1.5px solid #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 272px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Line 148 */
+
+width: 320px;
+height: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Features */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 320px;
+height: 128px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Com anúncios */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Até 5 músicas por dia */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Cante apenas as músicas disponíveis no plano gratuito */
+
+width: 288px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Pricing card 02 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 72px 32px 32px;
+gap: 32px;
+isolation: isolate;
+
+width: 384px;
+height: 560px;
+
+background: #18181B;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 320px;
+height: 224px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 48095966 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 320px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Premium */
+
+width: 84px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ideal para quem já cansou de passar vergonha no Karaokê */
+
+width: 320px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preço */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: baseline;
+padding: 0px;
+gap: 4px;
+
+width: 212px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R$ 24,90 */
+
+width: 170px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* /mês */
+
+width: 38px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 8px;
+
+width: 320px;
+min-width: 96px;
+height: 48px;
+
+background: #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 272px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #09090B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Line 148 */
+
+width: 320px;
+height: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Features */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 320px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Sem interrupção de anúncios */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Cante quantas músicas quiser */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Cante todas as músicas da biblioteca */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 48095972 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 32px;
+gap: 8px;
+
+position: absolute;
+width: 156px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Sunshine Gradient */
+background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+border-radius: 0px 0px 24px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* 1 mês grátis */
+
+width: 92px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #09090B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pricing card 03 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 24px;
+
+width: 384px;
+height: 480px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 320px;
+height: 224px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 48095966 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 320px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Família */
+
+width: 66px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Para aquelas famílias que adoram se reunir pra cantar */
+
+width: 320px;
+height: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Preço */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: baseline;
+padding: 0px;
+gap: 4px;
+
+width: 290px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R$ 21,90 */
+
+width: 160px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* /mês por pessoa */
+
+width: 126px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 8px;
+
+width: 320px;
+min-width: 96px;
+height: 48px;
+
+border: 1.5px solid #F4F4F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 272px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Line 148 */
+
+width: 320px;
+height: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Features */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 320px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Sem interrupção de anúncios */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Cante quantas músicas quiser */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Feature */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 320px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: 7.8%;
+top: 23.43%;
+bottom: 17.18%;
+
+background: #F7B733;
+
+
+/* Cante todas as músicas da biblioteca */
+
+width: 288px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Mínimo de 4 pessoas no plano família. */
+
+width: 320px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Download Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 80px 32px;
+gap: 32px;
+
+width: 1280px;
+height: 702px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 140px 80px;
+gap: 40px;
+isolation: isolate;
+
+width: 1216px;
+height: 542px;
+
+background: #18181B;
+border: 1px solid #27272A;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 640px;
+height: 166px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Download */
+
+width: 91px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Bora cantar? */
+
+width: 640px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Desperte seu potencial de estrela, liberte sua voz e faça parte da comunidade musical mais envolvente. Baixe o Zingen agora e transforme suas performances em experiências inesquecíveis! */
+
+width: 640px;
+height: 78px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* App store buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 353px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* App store button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 8px;
+
+width: 160px;
+height: 56px;
+
+background: #09090B;
+border: 1px solid #A1A1AA;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:baseline-apple */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 26.96px;
+height: 32px;
+left: calc(50% - 26.96px/2 - 0px);
+top: calc(50% - 32px/2);
+
+background: #F4F4F5;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 96px;
+height: 34px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Baixar na */
+
+width: 53px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+display: flex;
+align-items: center;
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Store */
+
+width: 96px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+display: flex;
+align-items: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Play Store button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 8px;
+
+width: 178px;
+height: 56px;
+
+background: #09090B;
+border: 1px solid #A1A1AA;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ri:google-play-fill */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 28.28px;
+height: 32px;
+left: calc(50% - 28.28px/2);
+top: calc(50% - 32px/2);
+
+background: #F4F4F5;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 114px;
+height: 34px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Disponível no */
+
+width: 78px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+display: flex;
+align-items: center;
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Google Play */
+
+width: 114px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+display: flex;
+align-items: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg 2 */
+
+position: absolute;
+width: 466px;
+height: 627px;
+right: -48px;
+bottom: 0.26px;
+
+background: url(rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg.png);
+filter: drop-shadow(16px 16px 64px rgba(0, 0, 0, 0.64));
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 80px 32px 32px;
+gap: 80px;
+
+width: 1280px;
+height: 360px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Div */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 70px;
+
+width: 1216px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 84px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Zingen */
+
+width: 84px;
+height: 32px;
+
+font-family: 'Paytone One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+color: #F4F4F5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+margin: 0 auto;
+width: 800px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 224px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Produto */
+
+width: 65px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 125px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 125px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 122px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 122px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 77px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 77px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Institutional */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 224px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Empresa */
+
+width: 63px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 78px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 78px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 137px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 137px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 34px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 34px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Legal */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 224px;
+height: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Legal */
+
+width: 42px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #F7B733;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 113px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 113px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 174px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 174px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 48095965 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1216px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Redes */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 32px 24px;
+
+margin: 0 auto;
+width: 168px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Social link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ic:baseline-tiktok */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.33%;
+right: 17.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #A1A1AA;
+
+
+/* Social link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* mdi:instagram */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #A1A1AA;
+
+
+/* Social link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* ri:twitter-x-fill */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.06%;
+right: 5.05%;
+top: 9.38%;
+bottom: 9.38%;
+
+background: #A1A1AA;
+
+
+/* Social link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* ic:baseline-discord */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.26%;
+right: 6.24%;
+top: 16.67%;
+bottom: 16.65%;
+
+background: #A1A1AA;
+
+
+/* ©2024 Zingen Technologies, Inc. */
+
+margin: 0 auto;
+width: 220px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+color: #A1A1AA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

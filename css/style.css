@@ -1,0 +1,609 @@
+/* Paleta compartilhada: altere aqui para atualizar as cores da página. */
+:root {
+  --cor-fundo: #09090b;
+  --cor-painel: #18181b;
+  --cor-titulo: #f4f4f5;
+  --cor-texto: #a1a1aa;
+  --cor-borda: #27272a;
+  --cor-destaque: #f7b733;
+  --cor-laranja: #fc4a1a;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter-extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-titulo);
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.6;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--cor-destaque);
+}
+a:focus-visible {
+  outline: 3px solid var(--cor-destaque);
+  outline-offset: 5px;
+}
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+h1 {
+  font-size: 64px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+}
+p,
+small {
+  color: var(--cor-texto);
+}
+.limite {
+  width: 95%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.rotulo {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--cor-destaque);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  border: 1px solid var(--cor-titulo);
+  border-radius: 8px;
+  background: var(--cor-titulo);
+  color: var(--cor-fundo);
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+.btn:hover {
+  background: var(--cor-destaque);
+  border-color: var(--cor-destaque);
+  color: var(--cor-fundo);
+}
+.btn-vazado {
+  background: transparent;
+  color: var(--cor-titulo);
+}
+
+/* Cabeçalho e apresentação */
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  gap: 24px;
+}
+.topo nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.menu-link {
+  color: var(--cor-texto);
+}
+.topo .btn {
+  padding: 12px 24px;
+}
+.hero {
+  position: relative;
+  padding: 80px 0 180px;
+  text-align: center;
+}
+.hero-fundo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+.hero-conteudo {
+  position: relative;
+  z-index: 1;
+}
+.hero-ondas {
+  margin: 0 auto 32px;
+}
+.hero p {
+  margin-top: 24px;
+  font-size: 40px;
+}
+.hero-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+/* Apresentação do aplicativo */
+.app {
+  background: var(--cor-painel);
+}
+.app-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 80px 0;
+}
+.app-descricao {
+  flex: 1;
+}
+.app-descricao p {
+  margin-top: 16px;
+}
+.app-telas {
+  width: 48%;
+}
+
+/* Cartões de funcionalidades com Flexbox */
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 32px;
+  padding: 80px 0;
+}
+.beneficio {
+  position: relative;
+  padding: 40px 32px;
+  background: var(--cor-painel);
+  border: 1px solid var(--cor-borda);
+  border-radius: 24px;
+  overflow: hidden;
+}
+.beneficio-simples {
+  width: 23%;
+}
+.beneficio-pontos {
+  width: 48%;
+}
+.beneficio-social,
+.beneficio-letra {
+  width: 48%;
+}
+.beneficio .beneficio-icone {
+  margin-bottom: 20px;
+}
+.beneficio p {
+  margin-top: 12px;
+}
+.beneficio-pontos .beneficio-conteudo,
+.beneficio-letra .beneficio-conteudo {
+  width: 51%;
+}
+.beneficio-social .beneficio-conteudo {
+  width: 54%;
+  margin-left: auto;
+}
+.preview {
+  position: absolute;
+  width: 42%;
+}
+.preview-pontos {
+  right: 24px;
+  bottom: 32px;
+}
+.preview-social {
+  left: 24px;
+  bottom: 32px;
+}
+.preview-letra {
+  right: 24px;
+  top: 32px;
+}
+
+/* Planos e preços */
+.assinaturas {
+  padding: 80px 0;
+}
+.secao-titulo {
+  max-width: 800px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+.assinaturas-lista {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.assinatura {
+  flex: 1;
+  min-width: 0;
+  padding: 32px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 24px;
+  background: var(--cor-painel);
+}
+.assinatura h3 {
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+.assinatura-resumo {
+  min-height: 52px;
+}
+.assinatura-valor {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 24px 0;
+  color: var(--cor-titulo);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.assinatura-valor span {
+  color: var(--cor-texto);
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+.assinatura .btn {
+  width: 100%;
+  padding: 10px;
+}
+.assinatura ul {
+  list-style: none;
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--cor-borda);
+}
+.assinatura li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: var(--cor-texto);
+}
+.assinatura li::before {
+  content: "";
+  background: url("../assets/icons/Check.svg") center / contain no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.assinatura small {
+  display: block;
+  margin-top: 24px;
+}
+.assinatura-destaque {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border: 2px solid var(--cor-destaque);
+  border-left-color: var(--cor-laranja);
+}
+.assinatura-oferta {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 10px 30px;
+  border-radius: 22px 0 22px 0;
+  background: var(--cor-destaque);
+  color: var(--cor-fundo);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Download e rodapé */
+.baixar {
+  padding: 80px 0;
+}
+.baixar-painel {
+  position: relative;
+  background: var(--cor-painel);
+  border-radius: 24px;
+  padding: 120px 80px;
+}
+.baixar-descricao {
+  width: 62%;
+  position: relative;
+  z-index: 1;
+}
+.baixar-descricao p {
+  margin-top: 16px;
+}
+.baixar-lojas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 40px;
+}
+.baixar-foto {
+  position: absolute;
+  width: 35%;
+  right: -24px;
+  bottom: 0;
+}
+.footer {
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+.footer-conteudo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 64px;
+}
+.footer nav {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.footer nav div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--cor-texto);
+}
+.footer h2 {
+  color: var(--cor-destaque);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.footer-base {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 80px;
+}
+.footer-redes {
+  display: flex;
+  gap: 24px;
+}
+
+/* Mantém uma folga entre a imagem e o texto no desktop mais estreito. */
+@media (min-width: 1101px) and (max-width: 1200px) {
+  .preview-social {
+    width: 40%;
+  }
+}
+
+/* Tablet: duas colunas e planos flexíveis */
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .topo nav {
+    gap: 16px;
+  }
+  .hero p {
+    font-size: 32px;
+  }
+  .beneficio {
+    width: 48%;
+  }
+  .beneficio-letra {
+    width: 100%;
+  }
+  .preview {
+    display: none;
+  }
+  .beneficio .beneficio-conteudo {
+    width: 100%;
+  }
+  .assinaturas-lista {
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .assinatura {
+    flex-grow: 1;
+    flex-basis: 280px;
+  }
+  .assinatura-destaque {
+    padding-bottom: 32px;
+  }
+  .baixar-painel {
+    padding: 64px 40px;
+  }
+  .baixar-foto {
+    right: 0;
+  }
+}
+
+/* Celular: conteúdo em uma coluna */
+@media (max-width: 700px) {
+  .limite {
+    width: 88%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .topo {
+    padding: 16px 0;
+  }
+  .menu-link {
+    display: none;
+  }
+  .topo .btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .hero {
+    padding: 64px 0 80px;
+  }
+  .hero-ondas {
+    width: 208px;
+    margin-bottom: 24px;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  .hero-acoes {
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .hero-acoes .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .app-conteudo {
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding: 0 0 48px;
+  }
+  .app-telas {
+    width: 100%;
+    max-width: 420px;
+  }
+  .rotulo {
+    font-size: 12px;
+  }
+  .beneficios {
+    padding: 48px 0;
+    gap: 24px;
+  }
+  .beneficio,
+  .beneficio-letra {
+    width: 100%;
+    padding: 24px;
+  }
+  .beneficio .beneficio-icone {
+    margin-bottom: 16px;
+  }
+  .beneficio p {
+    margin-top: 8px;
+  }
+  .assinaturas {
+    padding: 64px 0 48px;
+  }
+  .secao-titulo {
+    margin-bottom: 32px;
+  }
+  .assinaturas-lista {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .assinatura {
+    flex: auto;
+    width: 100%;
+    padding: 24px;
+  }
+  .assinatura-destaque {
+    padding-top: 64px;
+  }
+  .assinatura-resumo {
+    min-height: 0;
+  }
+  .assinatura-valor {
+    font-size: 32px;
+  }
+  .baixar {
+    padding: 48px 0;
+  }
+  .baixar-painel {
+    padding: 48px 24px 240px;
+    overflow: hidden;
+  }
+  .baixar-descricao {
+    width: 100%;
+  }
+  .baixar-lojas {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .baixar-foto {
+    width: 210px;
+    right: -28px;
+  }
+  .footer {
+    padding: 64px 0 24px;
+  }
+  .footer-conteudo,
+  .footer nav,
+  .footer-base {
+    flex-direction: column;
+  }
+  .footer-conteudo {
+    gap: 48px;
+  }
+  .footer nav {
+    width: 100%;
+    gap: 48px;
+  }
+  .footer-base {
+    align-items: flex-start;
+    margin-top: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* A navegação por teclado ganha um atalho sem alterar o layout. */
+.pular-conteudo {
+  position: absolute;
+  top: -80px;
+  left: 16px;
+  z-index: 10;
+  padding: 12px 16px;
+  background: var(--cor-titulo);
+  color: var(--cor-fundo);
+}
+.pular-conteudo:focus { top: 16px; }
